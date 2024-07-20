@@ -21,30 +21,16 @@ body {
     border-style: solid;
     grid-row: 1;
     grid-column: 1/3;
+    align-self: center;
 }
 .mainHeader > h1 {
     margin-top: 0px;
     margin-bottom: 0px;
     height: 3em;
-    /* padding-bottom: .25em; */
 }
 .mainHeader > P {
     margin: 0px;
-    padding-bottom: .5em;
-}
-.mainHeader > nav > ul {
-    padding: 0%;
-    margin: 0%;
-}
-.mainHeader > nav li {
-    background-color: white;
-    border-style: solid;
-    color: black;
-    display: inline-block;
-    font-size: 1em;
-    overflow: hidden;
-    margin-bottom: 0px;
-    width: 15%;
+    padding-bottom: .25%;
 }
 
 .mainBody {
@@ -117,11 +103,152 @@ body {
 .mainBody div:last-child{
     grid-row: 6/7;
     grid-column: 1/3;
-    /* background-color: goldenrod; */
     text-align: center;
     align-content: center;
     margin-right: 0%;
     margin-left: 0%;
-    height: 2em;
+    height: 75%;
     font-size: large;
+}
+
+.mainFooter {
+    align-self: center;
+}
+
+.mainFooter > nav > ul {
+    padding: 0%;
+    margin: 0%;
+}
+.mainFooter > nav li {
+    background-color: white;
+    border-style: solid;
+    color: black;
+    display: inline-block;
+    font-size: 1em;
+    overflow: hidden;
+    margin-bottom: 0px;
+    width: 15%;
+}
+
+/* *************** SUBSCRIPTION PAGE STYLES *************** */
+
+.subHeader {
+    color: rgb(11, 11, 134);
+    text-align: center;
+    border-style: solid;
+    grid-row: 1;
+    grid-column: 1/3;
+    align-self: center;
+}
+.subHeader > h1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 3em;
+}
+.subHeader > P {
+    margin: 0px;
+    padding-bottom: .25%;
+}
+
+.subBody > div {
+    border-style: solid;
+    border-radius: 23px;
+    border-width: 4px;
+    border-color: rgb(2, 2, 122);
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    /* margin-right: 10%;
+    margin-left: 10%; */
+    font-size: large;
+    background-color: hsla(239, 77%, 32%, 0.274);
+
+}
+
+.subHeader > nav > ul {
+    padding: 0%;
+    margin: 0%;
+}
+.subHeader > nav li {
+    background-color: white;
+    border-style: solid;
+    color: black;
+    display: inline-block;
+    font-size: 1em;
+    overflow: hidden;
+    margin-bottom: 0px;
+    width: 15%;
+}
+
+.subBody select {
+    text-align: center;
+    width: 50%;
+}
+
+.subBody fieldset > div {
+    /* background-color: blue; */
+    margin-bottom: 8%;
+} 
+.subBody fieldset > div:last-child{
+    /* background-color: blue; */
+    margin-bottom: 1%;
+} 
+
+.subBody fieldset legend {
+    font-size: larger;
+    font-weight: bold;
+}
+.subBody fieldset label {
+    margin-right: 3%;
+}
+
+.subBody form {
+    display: flex;
+    /* flex-flow: row; */
+    justify-content: center;
+    align-self: center;
+}
+
+.formButtons input {
+    margin-top: 5%;
+    padding: 2%;
+}
+
+
+/* *************** FOOD_LIST PAGE STYLES *************** */
+
+div.gallery {
+    margin: 2%;
+    border: 1px solid #ccc;
+    float: left;
+    width: 45%;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 12%;
+    text-align: center;
+  }
+
+  .listFooter {
+    border-style: solid;
+    border-radius: 23px;
+    border-width: 4px;
+    border-color: rgb(2, 2, 122);
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    /* margin-right: 10%;
+    margin-left: 10%; */
+    font-size: large;
+    background-color: hsla(239, 77%, 32%, 0.274);
+    justify-content: end;
 }

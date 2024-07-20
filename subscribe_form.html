@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 2-3: Subscription Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="subBody">
+        <div class="subHeader">
+            <h1><img src="./images/Logo.png" alt="Macronutrients"></h1>
+            <P> Learn about Carbohydrates, Proteins, and Fats. </P>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href=”#”>Carbs</a></li>
+                    <li><a href=”#”>Proteins</a></li>
+                    <li><a href=”#”>Fats</a></li>
+                    <li><a href="food_list.html">Foods List</a></li>
+                </ul>
+            </nav>
+        </div>
+        <form action="post">
+            <fieldset>
+                <legend> Your Information </legend>
+                <div>
+                    <label for="firstName">First Name</label>
+                    <input name="first" type="text">
+                </div>
+                <div>
+                    <label for="lastName">Last Name</label>
+                    <input name="last" type="text">
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input name="userEmail" type="email" value="****@****.***">
+                </div>
+                <div>
+                    <label for="birthdate">Birth Date</label>
+                    <input name="userbirthdate" type="date">
+                </div>
+                <div>
+                    <label for="topic">Topic</label>
+                    <select name="topics" id="selectTopic" size="3" multiple >
+                        <option value="t1">Carbs</option>
+                        <option value="t2">Proteins</option>
+                        <option value="t1">Fats</option>
+                    </select>
+                </div>
+                <div class="formButtons">
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                </div>
+            </fieldset>
+        </form>
+        <div>Learn more here.</div>
+    </div>
+</body>
+</html>
