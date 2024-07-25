@@ -217,15 +217,20 @@ body {
 
 /* *************** FOOD_LIST PAGE STYLES *************** */
 
+/* div.gal {
+    background-color: aliceblue;
+} */
+
 div.gallery {
     margin: 2%;
+    margin-left: 33%;
     border: 1px solid #ccc;
-    float: left;
-    width: 45%;
+    float: center;
+    width: 33%;
   }
   
   div.gallery:hover {
-    border: 1px solid #777;
+    border: 7px solid #777;
   }
   
   div.gallery img {
@@ -234,8 +239,9 @@ div.gallery {
   }
   
   div.desc {
-    padding: 12%;
+    padding: 5%;
     text-align: center;
+    font-size: x-large;
   }
 
   .listFooter {
